@@ -4,8 +4,8 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/BombRunner Tileset.png</File>
-    <File>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/newFont.spritefont</File>
+    <File>C:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/BombRunner Tileset.png</File>
+    <File>C:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/newFont.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File>tile_atlas.png</File>

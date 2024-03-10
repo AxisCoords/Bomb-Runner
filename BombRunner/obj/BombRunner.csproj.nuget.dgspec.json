@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\hp\\Documents\\Code\\MonoGame\\BombRunnerGame\\BombRunner\\BombRunner.csproj": {}
+    "C:\\Users\\hp\\Documents\\Code\\MonoGame\\BombRunnerGame\\BombRunner\\BombRunner.csproj": {}
   },
   "projects": {
-    "c:\\Users\\hp\\Documents\\Code\\MonoGame\\BombRunnerGame\\BombRunner\\BombRunner.csproj": {
+    "C:\\Users\\hp\\Documents\\Code\\MonoGame\\BombRunnerGame\\BombRunner\\BombRunner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\hp\\Documents\\Code\\MonoGame\\BombRunnerGame\\BombRunner\\BombRunner.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Documents\\Code\\MonoGame\\BombRunnerGame\\BombRunner\\BombRunner.csproj",
         "projectName": "BombRunner",
-        "projectPath": "c:\\Users\\hp\\Documents\\Code\\MonoGame\\BombRunnerGame\\BombRunner\\BombRunner.csproj",
+        "projectPath": "C:\\Users\\hp\\Documents\\Code\\MonoGame\\BombRunnerGame\\BombRunner\\BombRunner.csproj",
         "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\hp\\Documents\\Code\\MonoGame\\BombRunnerGame\\BombRunner\\obj\\",
+        "outputPath": "C:\\Users\\hp\\Documents\\Code\\MonoGame\\BombRunnerGame\\BombRunner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -26,3 +26,4 @@ C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\obj\Debug\net6.0\r
 C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\newFont.xnb
 c:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\tileset.xnb
 c:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\tile_atlas.xnb
+C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\obj\Debug\net6.0\BombRunner.sourcelink.json

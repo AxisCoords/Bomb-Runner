@@ -1,0 +1,3 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/BombRunner Tileset.png","c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/bin/DesktopGL/Content/tile_atlas.xnb","TextureProcessor","Texture2DContent",426,8277,0.3151464
+"c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/newFont.spritefont","c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/bin/DesktopGL/Content/newFont.xnb","FontDescriptionProcessor","SpriteFontContent",2078,37919,0.2009178

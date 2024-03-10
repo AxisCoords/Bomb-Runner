@@ -1,6 +1,6 @@
 using System;
-using System.Net.Http.Headers;
 using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace BombRunner;
@@ -13,11 +13,13 @@ internal class Bomb {
     Texture2D texture;
     Rectangle sourceRect = new Rectangle(16, 0, 16, 16);
     Rectangle collisionRect = new Rectangle(16, 0, 16 / 2 * SCALE, 16 * SCALE);
+    SoundEffect sound;
     Random randomTimer = new Random();
     Random randomPosX = new Random();
     
-    public Bomb(Texture2D texture) {
+    public Bomb(Texture2D texture, SoundEffect sound) {
         this.texture = texture;
+        this.sound = sound;
 
         position.Y = -16 * SCALE;
         position.X = randomPosX.Next(sourceRect.Width / 2 - 4 * SCALE, Global.WIDTH - sourceRect.Width / 2 - 16 * SCALE);
@@ -49,6 +51,7 @@ internal class Bomb {
             collisionRect.Y = (int)position.Y;
 
         if (position.Y >= 500 - 16 * 3) {
+            sound.Play(0.1f, 1, 1);
             position.Y = -16 * SCALE;
             position.X = randomPosX.Next(sourceRect.Width / 2 - 4 * SCALE, Global.WIDTH - sourceRect.Width / 2 - 4 * SCALE);
             Global.score++;

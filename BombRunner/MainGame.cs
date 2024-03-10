@@ -3,12 +3,15 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Media;
 
 namespace BombRunner;
 
 public class MainGame : Game {
     private GraphicsDeviceManager _graphics;
     
+    const float SONG_VOLUME = 0.1f;
     const byte MAX_BOMB_COUNT = 8;
     const byte MAX_PLANE_COUNT = 6;
     const byte MAX_CLOUD_COUNT = 6;
@@ -21,9 +24,11 @@ public class MainGame : Game {
     Texture2D planeTexture;
     Texture2D bombTexture;
     Texture2D cloudTexture;
-    List<Bomb> bombs;
-    List<Plane> planes;
-    List<Cloud> clouds;
+    SoundEffect bombSound;
+    Song backgroundMusic;
+    List<Bomb> bombs = new List<Bomb>();
+    List<Plane> planes = new List<Plane>();
+    List<Cloud> clouds = new List<Cloud>();
 
     public MainGame() {
         _graphics = new GraphicsDeviceManager(this)
@@ -53,15 +58,17 @@ public class MainGame : Game {
 
     protected override void LoadContent() {
         Global.spriteBatch = new SpriteBatch(GraphicsDevice);
-        string tile = "tile_atlas";
+        string tile = "res/tile_atlas";
         
-        font = Content.Load<SpriteFont>("newFont");
+        font = Content.Load<SpriteFont>("res/PixelFont");
         playerTexture = Content.Load<Texture2D>(tile);
         groundTexture = Content.Load<Texture2D>(tile);
         grassTexture = Content.Load<Texture2D>(tile);
         bombTexture = Content.Load<Texture2D>(tile);
         planeTexture = Content.Load<Texture2D>(tile);
         cloudTexture = Content.Load<Texture2D>(tile);
+        bombSound = Content.Load<SoundEffect>("audios/boom");
+        backgroundMusic = Content.Load<Song>("audios/chiptune_racer");
         
         player = new Player(playerTexture, new Vector2(Global.WIDTH / 2, 400));
         GenerateLevel();
@@ -98,6 +105,7 @@ public class MainGame : Game {
                 bomb.Update(gameTime);
                 if (bomb.CheckCollisionsRect(player)) {
                     Global.dead = true;
+                    MediaPlayer.Stop();
                 }
             }
 
@@ -170,17 +178,19 @@ public class MainGame : Game {
 
     // Generate entites and all
     private void GenerateLevel() {
+        MediaPlayer.Volume = SONG_VOLUME;
+        MediaPlayer.IsRepeating = true;
+        MediaPlayer.Play(backgroundMusic);
+        
         player = new Player(playerTexture, new Vector2(Global.WIDTH / 2, 400));
 
         // Bomb
-        bombs = new List<Bomb>();
         for (int i = 1; i < MAX_BOMB_COUNT; i++) {
-            Bomb bomb = new Bomb(bombTexture);
+            Bomb bomb = new Bomb(bombTexture, bombSound);
             bombs.Add(bomb);
         }
 
         // Plane
-        planes = new List<Plane>();
         for (int i = 1; i < MAX_PLANE_COUNT; i++) {
             Random rand = new Random();
 
@@ -189,7 +199,6 @@ public class MainGame : Game {
         }
 
         // Cloud
-        clouds = new List<Cloud>();
         for (int i = 1; i < MAX_CLOUD_COUNT; i++) {
             Cloud cloud = new Cloud(cloudTexture);
             clouds.Add(cloud);

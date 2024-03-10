@@ -4,11 +4,15 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/BombRunner Tileset.png</File>
-    <File>C:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/newFont.spritefont</File>
+    <File>C:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/audios/boom.wav</File>
+    <File>C:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/audios/UVQDBBY-chiptune_racer.mp3</File>
+    <File>C:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/PixelFont.spritefont</File>
+    <File>C:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/tile_atlas.png</File>
   </SourceFiles>
   <DestFiles>
-    <File>tile_atlas.png</File>
+    <File>audios/boom.wav</File>
+    <File>audios/chiptune_racer.mp3</File>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

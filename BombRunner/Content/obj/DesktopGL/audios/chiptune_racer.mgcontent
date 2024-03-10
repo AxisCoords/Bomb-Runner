@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/audios/UVQDBBY-chiptune_racer.mp3</SourceFile>
+  <SourceTime>2024-03-10T23:56:17.5490237+06:00</SourceTime>
+  <DestFile>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/bin/DesktopGL/audios/chiptune_racer.xnb</DestFile>
+  <DestTime>2024-03-11T00:19:11.5458361+06:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2022-07-26T17:44:56+06:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2022-07-26T17:44:56+06:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/bin/DesktopGL/audios/chiptune_racer.ogg</string>
+  </BuildOutput>
+</PipelineBuildEvent>

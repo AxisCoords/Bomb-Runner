@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BombRunner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3982c44614f65cbe1d7bab00c7cc241928a177ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67dbb1920184fb5ad6e6215ea1cd502ef8f678e4")]
 [assembly: System.Reflection.AssemblyProductAttribute("BombRunner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BombRunner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

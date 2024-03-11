@@ -11,7 +11,7 @@ namespace BombRunner;
 public class MainGame : Game {
     private GraphicsDeviceManager _graphics;
     
-    const float SONG_VOLUME = 0.1f;
+    const float SONG_VOLUME = 0.2f;
     const byte MAX_BOMB_COUNT = 8;
     const byte MAX_PLANE_COUNT = 6;
     const byte MAX_CLOUD_COUNT = 6;

@@ -13,17 +13,17 @@
 
 #---------------------------------- Content ---------------------------------#
 
-#begin res/audios/boom.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:res/audios/boom.wav;audios/boom.wav
-
-#begin res/audios/UVQDBBY-chiptune_racer.mp3
+#begin res/audios/8bit-arcade.mp3
 /importer:Mp3Importer
 /processor:SongProcessor
 /processorParam:Quality=Best
-/build:res/audios/UVQDBBY-chiptune_racer.mp3;audios/chiptune_racer.mp3
+/build:res/audios/8bit-arcade.mp3;audios/8bit-arcade.mp3
+
+#begin res/audios/explosion.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:res/audios/explosion.wav;audios/explosion.wav
 
 #begin res/PixelFont.spritefont
 /importer:FontDescriptionImporter

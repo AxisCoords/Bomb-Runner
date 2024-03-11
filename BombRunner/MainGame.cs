@@ -11,7 +11,7 @@ namespace BombRunner;
 public class MainGame : Game {
     private GraphicsDeviceManager _graphics;
     
-    const float SONG_VOLUME = 0.2f;
+    const float SONG_VOLUME = 0.1f;
     const byte MAX_BOMB_COUNT = 8;
     const byte MAX_PLANE_COUNT = 6;
     const byte MAX_CLOUD_COUNT = 6;
@@ -67,8 +67,8 @@ public class MainGame : Game {
         bombTexture = Content.Load<Texture2D>(tile);
         planeTexture = Content.Load<Texture2D>(tile);
         cloudTexture = Content.Load<Texture2D>(tile);
-        bombSound = Content.Load<SoundEffect>("audios/boom");
-        backgroundMusic = Content.Load<Song>("audios/chiptune_racer");
+        bombSound = Content.Load<SoundEffect>("audios/explosion");
+        backgroundMusic = Content.Load<Song>("audios/8bit-arcade");
         
         player = new Player(playerTexture, new Vector2(Global.WIDTH / 2, 400));
         GenerateLevel();
@@ -168,7 +168,7 @@ public class MainGame : Game {
             Global.spriteBatch.Draw(groundTexture, new Rectangle(0, 0, Global.WIDTH, Global.HEIGHT), new Rectangle(0, 16, 16, 16), Color.White);
             Text.DrawTextCentered(font, "SCORE: " + Global.score, new Vector2(Global.WIDTH / 2, Global.HEIGHT / 2 - 100), Color.White, false);
             Text.DrawTextCentered(font, "Press ENTER to play again", new Vector2(Global.WIDTH / 2, Global.HEIGHT / 2 + 100), Color.White);
-            Text.DrawText(font, "dev Axis", new Vector2(4, Global.HEIGHT - 28), Color.White, false);
+            Text.DrawText(font, "dev Axis", new Vector2(4, Global.HEIGHT - 30), Color.White, false);
         }
 
         

@@ -25,8 +25,8 @@ C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\obj\Debug\net6.0\B
 C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\obj\Debug\net6.0\ref\BombRunner.dll
 c:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\tileset.xnb
 C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\obj\Debug\net6.0\BombRunner.sourcelink.json
-C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\audios\boom.xnb
-C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\audios\chiptune_racer.ogg
-C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\audios\chiptune_racer.xnb
 C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\res\PixelFont.xnb
 C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\res\tile_atlas.xnb
+C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\audios\explosion.xnb
+C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\audios\8bit-arcade.ogg
+C:\Users\hp\Documents\Code\MonoGame\BombRunnerGame\BombRunner\bin\Debug\net6.0\Content\audios\8bit-arcade.xnb

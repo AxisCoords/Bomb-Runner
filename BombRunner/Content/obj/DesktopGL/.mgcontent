@@ -4,14 +4,14 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/audios/boom.wav</File>
-    <File>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/audios/UVQDBBY-chiptune_racer.mp3</File>
+    <File>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/audios/8bit-arcade.mp3</File>
+    <File>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/audios/explosion.wav</File>
     <File>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/PixelFont.spritefont</File>
     <File>c:/Users/hp/Documents/Code/MonoGame/BombRunnerGame/BombRunner/Content/res/tile_atlas.png</File>
   </SourceFiles>
   <DestFiles>
-    <File>audios/boom.wav</File>
-    <File>audios/chiptune_racer.mp3</File>
+    <File>audios/8bit-arcade.mp3</File>
+    <File>audios/explosion.wav</File>
     <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
